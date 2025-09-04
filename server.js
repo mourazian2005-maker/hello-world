@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
     <body>
         <div class="container">
             <h1>Привет, мир! </h1>
-            <p>Мое приложение успешно работает на Railway!</p>
+            <p>Мое приложение успешно работает на Render!</p>
         </div>
     </body>
     </html>
@@ -58,4 +58,5 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`Сервер запущен на порту ${PORT}`);
   console.log(`Откройте в браузере: http://localhost:${PORT}`);
+
 });
